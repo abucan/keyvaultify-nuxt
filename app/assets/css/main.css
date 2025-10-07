@@ -4,6 +4,12 @@
 @custom-variant dark (&:is(.dark *));
 @tailwind utilities;
 
+@theme {
+  --font-bricolage: 'Bricolage Grotesque', sans-serif;
+  --font-spectral: 'Spectral', serif;
+  --font-sans: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
