@@ -1,6 +1,6 @@
 <template>
     <div class="w-full max-w-md">
-      Authentication
+      <AuthEmailForm />
     </div>
   </template>
   
